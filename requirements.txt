@@ -1,0 +1,27 @@
+# данные
+pandas>=2.2
+pyarrow>=16.0
+numpy>=1.26
+s3fs>=2024.6
+python-dotenv>=1.0
+
+# EDA и визуализация
+matplotlib>=3.8
+seaborn>=0.13
+
+# поиск
+scikit-learn>=1.4
+sentence-transformers>=3.0
+torch>=2.2
+tqdm>=4.66
+pymorphy3>=2.0
+
+# эксперименты
+mlflow>=2.14
+
+# приложение
+streamlit>=1.35
+
+# Jupyter
+jupyter>=1.0
+ipykernel>=6.29

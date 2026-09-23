@@ -1,0 +1,29 @@
+# секреты: доступы к S3 и MLflow храним только локально
+.env
+
+# данные: читаем из S3, локальные копии в репозиторий не попадают
+data/
+*.parquet
+
+# артефакты экспериментов и кэши моделей
+mlruns/
+mlartifacts/
+artifacts/
+models/
+*.npy
+*.faiss
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+calmfruitsvenv/
+
+# IDE и ОС
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
